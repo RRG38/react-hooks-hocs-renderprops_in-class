@@ -1,5 +1,9 @@
 import React from 'react'
 import '../style.css'
+import Counter from './Counter';
+import MovieList from './MovieList';
+import PokemonList from './PokemonList';
+
 
 const Hooks = props => {
   return (
@@ -14,7 +18,10 @@ const Hooks = props => {
           Docs
         </a>
       </h1>
+      <PokemonList />
+      <MovieList />
+      <Counter />
     </section>
   )
 }
-export default Hooks
+export default Hooks;
